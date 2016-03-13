@@ -1,11 +1,14 @@
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Narrow' !important;
   background-color: #ecf0f1;
 }
+
 h1 {
+  font-size: 150px;
   color: #34495e;
-  align: center;
-  font-size: 80px;
+}
+p {
+  font-size: 30px; 
 }
 button {
   background-color: #34495e;
@@ -13,13 +16,21 @@ button {
 i {
   color: #ecf0f1;
 }
-nav {
-  background-color: #ecf0f1 !important;
-  text-color: pink;
+mark {
+  background-color: #1abc9c;
+  color: #34495e;
+}
+.well {
+  background-color: #ecf0f1;
+  border-color: #34495e;
+  border-width: 3px;
 }
 .space {
-  margin: 30px 0px;
+  margin-bottom: 15px;
 }
-.morespace {
-  margin: 50px 0px;
+.break {
+  margin-bottom: 15px;
+}
+.summary {
+  border-width: 1px;
 }
