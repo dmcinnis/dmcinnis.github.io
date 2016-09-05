@@ -1,28 +1,28 @@
 body {
   font-family: 'PT Sans Narrow' !important;
-  background-color: #ecf0f1;
+  background-color: #fff;
 }
 
 h1 {
   font-size: 150px;
-  color: #34495e;
+  color: #333;
 }
 p {
   font-size: 30px;
 }
 button {
-  background-color: #34495e;
+  background-color: #333;
 }
 i {
-  color: #ecf0f1;
+  color: #fff;
 }
 mark {
-  background-color: #1abc9c;
-  color: #34495e;
+  background-color: #f1c40f;
+  color: #333;
 }
 .well {
-  background-color: #ecf0f1;
-  border-color: #34495e;
+  background-color: #fff;
+  border-color: #333;
   border-width: 3px;
   padding-bottom: 0px;
 }
@@ -34,4 +34,5 @@ mark {
 }
 .summary {
   border-width: 1px;
+  text-align: justify;
 }
